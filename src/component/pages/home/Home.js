@@ -26,13 +26,13 @@ const Home = () => {
         </div>
         <div className='contact'>
        
-            <h3>contact us</h3>
+            <h3>Contact Us</h3>
             <img src={con} alt=''/>
             <h4><img src={mob} alt=''/><span>7878657998</span></h4>
             <h4><img src={whatsup} alt=''/><span>8190888237</span></h4>
             <h4><img src={insta} alt=''/><span>piizacorner</span></h4>
-            <h4>address:<span>
-                <p>2/253,north street</p>
+            <h4>Address:<span>
+                <p>2/253,North Street</p>
                 <p>Chittar Kottai</p>
                 <p>Ramanathapuram</p>
             </span>
