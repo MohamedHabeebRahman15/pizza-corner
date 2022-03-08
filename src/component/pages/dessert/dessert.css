@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+   
+}
+.container{
+    background-color: black;
+
+    
+    
+   
+}
+.dessert_list >img{
+  width: 75%;
+    height: 15rem;
+    margin: 15px 35px;
+   border: 1px solid orangered;
+}
+.dessert_list{
+    width: 20rem;
+    height: 28rem;
+    margin: 15px 0px;  
+   background-color: white;
+   border-bottom:1px solid yellow;
+   display: inline-block;
+   margin-left: 80px;
+
+   
+}
+.dessert_list >h3{
+    font-size: 20px;
+    padding: 5px 10px;
+    color: black;
+    text-align: center;
+
+}
+.dessert_list>h3>span{
+    color: orangered;
+    font-size: 20px;
+}
+.dessert_list h2{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 10px 5px;
+    text-align: center;
+    margin: 10px 0px;
+    margin-left: 6rem;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.dessert_list >ul{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    padding: 10px 5px;
+    text-align: center;
+    margin: 10px 0px;
+    margin-left: 6rem;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+.dessert_list >ul>a{
+    text-decoration: none;
+    color: white;
+}
+.dessert_list h2:hover{
+    background-color: rgb(15, 207, 15);
+   
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.dessert_list >ul:hover{
+  
+    background-color: rgb(15, 207, 15);
+   
+    cursor: pointer;
+    transform: scale(1.1);
+}
+@media only screen and (max-width:960px){
+    .container{
+        background-color: black;
+        border-top: 1px solid orangered;
+     
+       
+    }
+    .dessert_list{
+        width: 18rem;
+        height: 23rem;
+        margin: 15px 0px;  
+       background-color: white;
+       border:1px solid orangered;
+       display: block;
+       margin-left: 100px;
+    
+       
+    }
+    .dessert_list >h3{
+        font-size: 15px;
+        padding: 5px 10px;
+        color: black;
+        text-align: center;
+    
+    }
+    .dessert_list>h3>span{
+        color: orangered;
+        font-size: 15px;
+    }
+    .dessert_list >img{
+        width: 75%;
+          height: 13rem;
+          margin: 12px 30px;
+         border: 1px solid orangered;
+      }
+      .dessert_list h2{
+        background-color: green;
+        color: white;
+        width: 80px;
+        height: 20px;
+        padding: 10px 5px;
+        text-align: center;
+        margin: 10px 0px;
+        margin-left: 6rem;
+        border-radius: 10px;
+        font-size: 16px;
+        
+    }
+   
+    .dessert_list h2:hover{
+        background-color: rgb(15, 207, 15);
+       
+        cursor: pointer;
+        transform: scale(1.09);
+    }
+    .dessert_list >ul{
+        background-color: green;
+        color: white;
+        width: 80px;
+        height: 20px;
+        padding: 10px 5px;
+        text-align: center;
+        margin: 10px 0px;
+        margin-left: 6rem;
+        border-radius: 10px;
+        font-size: 15px;
+    
+    }
+    .dessert_list >ul>a{
+        text-decoration: none;
+        color: white;
+    }
+}

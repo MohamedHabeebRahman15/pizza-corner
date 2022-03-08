@@ -1,0 +1,258 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.top{
+
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding-bottom: 20px;
+}
+.top > img{
+    width: 100%;
+    height: 700px;
+    box-shadow: thistle;
+    border: 1px solid orangered;
+}
+.top >h3{
+    position: absolute;
+    top: 18rem;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    z-index: 1;
+   
+}
+.top >h3 >span{
+    color: red;
+    font-size: 30px;
+
+}
+.top >h2{
+    position: absolute;
+    top: 21rem;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.top >h2 >span{
+    color: red;
+    font-size: 30px;
+
+}
+.about{
+    background:black;
+    height: auto;
+    
+}
+.about >h3{
+    padding: 10px 0px;
+    font-size: 30px;
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+  
+}
+.about > p {
+    width: 40rem;
+    margin-left: 60px;
+    margin-top: 15px;
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+}
+.about >img{
+    position: absolute;
+    right: 6rem;
+    top:53rem;
+    width: 26rem;
+    border: 1px solid orangered;
+
+}
+.contact{
+    padding-top: 20px;
+   
+}
+.contact > img{
+    width: 30rem ;
+    height: 25rem;
+   float: right;
+   margin-right: 10rem;
+   border: 1px solid orangered;
+}
+.contact >h3 {
+    padding: 10px 0px;
+    font-size: 30px;
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    
+  
+
+}
+.contact >h4{
+    margin-top: 20px;
+    color: orangered;
+    margin-left: 20px;
+    font-size: 27px;
+    padding-top: 10px;
+    
+}
+.contact >h4>span{
+    color:white;
+    font-style: italic;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.contact >h4>span >p{
+    color: white;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 15px;
+}
+.contact>h4 >img{
+    height: 45px;
+    width: 50px;
+     padding: 0px 20px;
+   
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+@media only screen and (max-width:960px){
+    .top{
+        background-color: rgb(58, 56, 56);
+        width: 100%;
+        display: block;
+        background-color: black;
+        padding-bottom: 20px;
+    }
+    .top > img{
+        width: 100%;
+        height: 400px;
+        box-shadow: black;
+    }
+    .top >h3{
+        position: absolute;
+        top: 13rem;
+        left: 10px;
+        color: white;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .top >h3 >span{
+        color: red;
+        font-size: 18px;
+    
+    }
+    .top >h2{
+        position: absolute;
+        top: 15rem;
+        left: 10px;
+        color: white;
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .top >h2 >span{
+        color: red;
+        font-size: 18px;
+
+    }
+    .about{
+        background:black;
+        height: auto;
+      
+      
+    
+    }
+    .about >h3{
+        padding: 10px 0px;
+        font-size: 23px;
+        color: orangered;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 10px;
+      
+    }
+    .about > p {
+        width: 25rem;
+        margin-left: 40px;
+        margin-top: 15px;
+        color: white;
+        font-size: 18px;
+        font-style: italic;
+    }
+    .about > img{
+       
+        position: absolute;
+        right: 3rem;
+        top:48rem;
+        width: 25rem;
+        margin-top: 2rem;
+       
+  }
+ 
+  .contact {
+    padding-top: 10px;
+    margin-top: 300px;  
+}
+.contact > img{
+    width: 20em ;
+    height: 15rem;
+   float: right;
+   margin-right: 5rem;
+   border: 1px solid orangered;
+   margin-bottom: 15px;
+}
+
+.contact >h3 {
+    padding: 10px 0px;
+    font-size: 30px;
+    color: orangered;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    
+  
+
+}
+.contact >h4{
+    margin-top: 20px;
+    color: orangered;
+    margin-left: 20px;
+    font-size: 30px;
+    padding-top: 10px;
+    
+}
+.contact >h4>span{
+    color:white;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.contact >h4>span >p{
+    color: white;
+    font-size: 18px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.contact>h4 >img{
+    height: 30px;
+    width: 40px;
+     padding: 0px 20px;
+   
+    margin-left: 30px;
+    margin-top: 10px;
+}
+}
